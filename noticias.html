@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--MY RESOURCES-->
+
+        <!--font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--link css-->
+        <link rel="stylesheet" href="CSS/style.css">
+
+    <!--END MY RESOURCES-->
+
+    <title>Noticias | AgroDiv</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header style="background-image: url('img/background-noticias.jpg');">
+        <!--container-->
+        <div class="container">
+            <nav>
+
+                <a href="index.html">
+                    <img src="img/logo agrodiv branco simbolo verde.png" alt="logo agridiv">
+                </a>
+
+                <ul class="ul">
+
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="produtos.html">Produtos</a>
+                    <a href="noticias.html">Notícias</a>
+                    <a href="dicas.html">Dicas de plantio</a>
+                    <a href="contacto.html" class="btn">Contacto</a>
+
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa fa-times-circle"></i>
+                    </div>
+                </ul>
+
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+
+            </nav>
+
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Noticias</h1>
+                </div>
+            </section>
+        </div>
+        <!--end container-->
+    </header>
+    <!--End Header-->
+
+
+    <!--Serviços-->
+    <section class="servicos">
+
+        <div class="container">
+            <h3>Noticias mais recentes</h3>
+            <p style="margin: 10px;">Saiba das noticias sobre agricultura em primeira mão...
+            </p>
+
+            <!--Row cards-->
+            <div class="news-cards">
+
+                <!--new card item 1-->
+                <div class="new-card-item">
+                    <img src="img/n1.jpg" alt="cloud">
+                    <p class="nome-servico" style="margin: 20px;"><strong style="/*color: black;*/ font-size: 20pt; ">Governo recupera zonas de regadio</strong></p>
+                    <p class="descricao-servico" style="margin: 20px;">
+                        O Governo projecta a reabilitação de mais de 10 zonas agrícolas irrigadas, em seis províncias, com três que já cumprem os requisitos... 
+                    </p>
+                    <hr style="width: 300px; margin: 20px;">
+                    <p style="font-size: 8pt; margin: 20px;"><strong>20/09/2023</strong> ÚLTIMA ATUALIZAÇÃO <strong>18H04</strong></p>
+                </div>
+                <!--End new card item 1-->
+
+                <!--new card item 2-->
+                <div class="new-card-item">
+                    <img src="img/n2.jpg" alt="cloud">
+                    <p class="nome-servico" style="margin: 20px;"><strong style="/*color: black;*/ font-size: 20pt; ">Grande colheita de verduras em Lucala</strong></p>
+                    <p class="descricao-servico" style="margin: 20px;">
+                        O município do Lucala, restaurados e ampliados com a capacidade para apoiar mais de seis mil camponeses com a diversificação de verduras... 
+                    </p>
+                    <hr style="width: 300px; margin: 20px;">
+                    <p style="font-size: 8pt; margin: 20px;"><strong>20/09/2023</strong> ÚLTIMA ATUALIZAÇÃO <strong>18H04</strong></p>
+                </div>
+                <!--End new card item 2-->
+
+                <!--new card item 3-->
+                <div class="new-card-item">
+                    <img src="img/n3.jpg" alt="cloud">
+                    <p class="nome-servico" style="margin: 20px;"><strong style="/*color: black;*/ font-size: 20pt; ">Governo aposta no programa AgroDiv</strong></p>
+                    <p class="descricao-servico" style="margin: 20px;">
+                        Governo angolano aposta no programa inovador concebidos por jovens para diversificar a agricultura nacional de forma local...
+                    </p>
+                    <hr style="width: 300px; margin: 20px;">
+                    <p style="font-size: 8pt; margin: 20px;"><strong>20/09/2023</strong> ÚLTIMA ATUALIZAÇÃO <strong>18H04</strong></p>
+                </div>
+                <!--End new card item 3-->
+
+                <!--new card item 4-->
+                <div class="new-card-item">
+                    <img src="img/n4.jpg" alt="cloud">
+                    <p class="nome-servico" style="margin: 20px;"><strong style="/*color: black;*/ font-size: 20pt; ">Agricultura é paciência e amor</strong></p>
+                    <p class="descricao-servico" style="margin: 20px;">
+                        Apostar na agricultura requer paciência e amor. É preciso não ter pressa em obter resultados, saber esperar o momento certo... 
+                    </p>
+                    <hr style="width: 300px; margin: 20px;">
+                    <p style="font-size: 8pt; margin: 20px;"><strong>20/09/2023</strong> ÚLTIMA ATUALIZAÇÃO <strong>18H04</strong></p>
+                </div>
+                <!--End new card item 4-->
+
+                <!--new card item 5-->
+                <div class="new-card-item">
+                    <img src="img/n5.jpg" alt="cloud">
+                    <p class="nome-servico" style="margin: 20px;"><strong style="/*color: black;*/ font-size: 20pt; ">Agricultura no topo de África</strong></p>
+                    <p class="descricao-servico" style="margin: 20px;">
+                        A notícia sobre o posicionamento de Angola no topo dos maiores produtores do mundo de banana, com uma oferta de mais de quatro milhões de... 
+                    </p>
+                    <hr style="width: 300px; margin: 20px;">
+                    <p style="font-size: 8pt; margin: 20px;"><strong>20/09/2023</strong> ÚLTIMA ATUALIZAÇÃO <strong>18H04</strong></p>
+                </div>
+                <!--End new card item 5-->
+
+                <!--new card item 6-->
+                <div class="new-card-item">
+                    <img src="img/n6.jpg" alt="cloud">
+                    <p class="nome-servico" style="margin: 20px;"><strong style="/*color: black;*/ font-size: 20pt; ">Angola perspectivam acordos agricolas</strong></p>
+                    <p class="descricao-servico" style="margin: 20px;">
+                        Angola vão rubricar, em breve, um Memorando de Entendimento nos domínios da Agricultura e Pecuária, foi, terça-feira, anunciado em Gaborone. 
+                    </p>
+                    <hr style="width: 300px; margin: 20px;">
+                    <p style="font-size: 8pt; margin: 20px;"><strong>20/09/2023</strong> ÚLTIMA ATUALIZAÇÃO <strong>18H04</strong></p>
+                </div>
+                <!--End new card item 6-->
+
+                
+
+            </div>
+            <!--End news cards-->
+
+        </div>
+
+    </section>
+    <!-- End serviços-->
+
+
+    
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido por Kelson Cassange</p>
+        </div>
+    </footer>
+    <!-- End Footer-->
+
+    <script src="JS/main.js"></script>
+
+</body>
+</html>
